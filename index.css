@@ -1,0 +1,1072 @@
+/* Developed by Tanmay and Teanvi  */
+@font-face {
+    font-display: swap;
+    font-family: Blanco OSF;
+    src: url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Regular.801a4e20a7d0a0d7920f60e192e46c48.woff), url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Regular.7d5a8216b7607638e81feb748552a702.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Blanco OSF;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Bold.400a57e32ac2790629d4fa0211b45f99.woff), url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Bold.5597c92771d64715fcfc7af63ba976e9.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Blanco OSF;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Italic.8ddad49f8497468d243c64648470f585.woff), url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-Italic.5e84440eca9d20d6c8311bd3bd6af473.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Blanco OSF;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-BoldItalic.cc63bcbdd7ca611875f1b415dba418e8.woff), url(https://assets.getpocket.com/web-ui/assets/BlancoOSFWeb-BoldItalic.45e2653f7bf12f75c2f9e8cef5e95e64.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Doyle;
+    font-weight: 400;
+    src: url(https://assets.getpocket.com/web-ui/assets/Doyle-Regular.ae81b3ac3456aa8ce04266ce44168298.woff), url(https://assets.getpocket.com/web-ui/assets/Doyle-Regular.96ab1443bd74e896395776fc10e78857.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Doyle;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://assets.getpocket.com/web-ui/assets/Doyle-RegularItalic.38a8e4befe6a34b235bd18e9e2d04e16.woff), url(https://assets.getpocket.com/web-ui/assets/Doyle-RegularItalic.e7af5c11daccb053aa0244f7a3e74ebf.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Doyle;
+    font-weight: 500;
+    src: url(https://assets.getpocket.com/web-ui/assets/Doyle-Medium.c09a60519e560b51048e9efa13159e15.woff), url(https://assets.getpocket.com/web-ui/assets/Doyle-Medium.eb6ee0eb205e8467cb3b0e61191217b2.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Doyle;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://assets.getpocket.com/web-ui/assets/Doyle-MediumItalic.e092e31b43186ff6e57b52b6aa4e684d.woff), url(https://assets.getpocket.com/web-ui/assets/assets/Doyle-MediumItalic.10520e4820b03f63912a9b52ba5aae7a.woff2)
+}
+
+@font-face {
+    font-family: Graphik Web;
+    font-weight: 100;
+    src: url(https://assets.getpocket.com/web-ui/assets/assets/Graphik-Thin-Web.8a7b553d6f07fa6774d6cc3f566f3817.woff), url(https://assets.getpocket.com/web-ui/assets/assets/Graphik-Thin-Web.f68162edaf17e6d6222ab9da5ee6a3ee.woff2)
+}
+
+@font-face {
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 100;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-ThinItalic-Web.d8fc643e1ca78c2047bbf1818f898877.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-ThinItalic-Web.0d830398baa16b5b118e9c3a72544630.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 200;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Extralight-Web.2692a605d0a1873eab0c6c436516b3cc.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Extralight-Web.3e7d8320e82a4ac557bffb30f49a7dd2.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 200;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-ExtralightItalic-Web.8d878c5ddd91785ae4ce02bcbc3611a5.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-ExtralightItalic-Web.e2021e99b9b03e623fb707081f647e11.woff2)
+}
+
+@font-face {
+    font-family: Graphik Web;
+    font-weight: 300;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Light-Web.da8be9aa3a2d638310d7300574c9ca4f.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Light-Web.4389379ad479dec8e9013bda556ef683.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-LightItalic-Web.6c489a038da4053727bb9d59843d55fa.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-LightItalic-Web.65c8f8e7f2f448733fe4393d0967fa8b.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 400;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Regular-Web.f4517c893c366f67105eb10713c09aa8.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Regular-Web.e05a3b2ff4a3813954bcf8bdb83f9804.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-RegularItalic-Web.499cfc7bd3673043171850abe04dd21e.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-RegularItalic-Web.d12ea36eea34954d9fd7dee0ac29640c.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 500;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Medium-Web.31a8dbe17cf69cda402e9b565d1bb595.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Medium-Web.c28abeb53c5265642e173cb1f81e8091.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-MediumItalic-Web.e849270d3445a26ebdc0e311f5c09a68.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-MediumItalic-Web.e983ce64531b413c98468b4d6c8a13da.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 600;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Semibold-Web.f9e768566f6ba55e507f398522df32a7.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Semibold-Web.1e9ac78e3efd08db3b5db4380e3a1e6f.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-SemiboldItalic-Web.034a80f088b241a85c8a8481e842d724.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-SemiboldItalic-Web.876e8402cf5eabe6b470184b3a9a99f9.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Bold-Web.8aec411232046eb045b0222303d906c1.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Bold-Web.f9055a490bbbea456422bc02fde65dbd.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-BoldItalic-Web.5408dfb7fbe6369580c51d784814839a.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-BoldItalic-Web.97ee2ed109056dd42d1c56779c9f17ad.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 800;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Black-Web.5bedb5668c86ae2a1f8b7e04ffa54c0b.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Black-Web.a525aba1cce162a75f23ba5232bafe71.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-BlackItalic-Web.8148e65b1be4dad9cc97b417e6bfe300.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-BlackItalic-Web.e417d4a1935480005c401445a708b71c.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-weight: 900;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-Super-Web.8d212593853c895eb75469ee506caa56.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-Super-Web.f16672fba11f8f3c5422665538f11733.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Graphik Web;
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://assets.getpocket.com/web-ui/assets/Graphik-SuperItalic-Web.142c0ac5636d8f50e906a646df05e722.woff), url(https://assets.getpocket.com/web-ui/assets/Graphik-SuperItalic-Web.bf26f31b291983c02f78313e9b32c394.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IdealSans;
+    src: url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-Book_Web.7d16617ee3afbae04aad0840190a4fa2.woff), url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-Book_Web.8ceb4de0789288847af513bd51c5818a.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IdealSans;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-Semibold_Web.ab443439365d14e4d3f33b96ace4cf3d.woff), url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-Semibold_Web.b23b3824fab9ab4dc8006a6f24423b0f.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IdealSans;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-BookItalic_Web.086c41cbfa1e131056192654defa325c.woff), url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-BookItalic_Web.e3cf9a006e02acd2311610854754c42b.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IdealSans;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-SemiboldItalic_Web.3e33dacd17e8b971382f9075f200fdf5.woff), url(https://assets.getpocket.com/web-ui/assets/IdealSansSSm-SemiboldItalic_Web.3e33dacd17e8b971382f9075f200fdf5.woff)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Inter;
+    src: url(https://assets.getpocket.com/web-ui/assets/Inter-Regular.ec3ea472a86202b82f0e82988267ba8c.woff), url(https://assets.getpocket.com/web-ui/assets/Inter-Regular.bcdeb499f86c03ab9093fe49b5c795ae.woff2)
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Inter-Bold.c9c89216b48bee4d8727bf39d948b125.woff), url(https://assets.getpocket.com/web-ui/assets/Inter-Bold.fe38e3f307fcbac1a801c0c38dff56ef.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Inter;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/Inter-Italic.62e6973fbd89e3696a41b670146a3eb6.woff), url(https://assets.getpocket.com/web-ui/assets/Inter-Italic.2b168e564b4ccdcac9e17b648d9f41b0.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Inter-BoldItalic.ca06b9e049b5e736fd9b8a1cec2bf1c6.woff), url(https://assets.getpocket.com/web-ui/assets/Inter-BoldItalic.6d8374eb1ad9557adf0daf03048adcc9.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Sentinel;
+    src: url(https://assets.getpocket.com/web-ui/assets/Sentinel-Book_Web.44e095f96c68683ddccf21786f2c7aab.woff), url(https://assets.getpocket.com/web-ui/assets/Sentinel-Book_Web.2a0c49d105a76fdcf8843ae4912732d5.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Sentinel;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Sentinel-Semibold_Web.0a5a95311f7575d29340624e24d7b308.woff), url(https://assets.getpocket.com/web-ui/assets/Sentinel-Semibold_Web.f3cd3775fc8ca441f3694632cdce03da.woff2)
+}
+
+@font-face {
+    font-family: Sentinel;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/Sentinel-BookItalic_Web.d92befc476196bc9cd4ceda25b5b0705.woff), url(https://assets.getpocket.com/web-ui/assets/Sentinel-BookItalic_Web.9f137203ba87748d9f8a9239729b065a.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Sentinel;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Sentinel-SemiboldItalic_Web.d6370a31cd7fafab460bb19e460ff8c3.woff), url(https://assets.getpocket.com/web-ui/assets/Sentinel-SemiboldItalic_Web.434b7971453df9b22c5cdf4c60f994e2.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Tiempos;
+    src: url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-Regular.ce3a6e174a1e93d77aa9744e668b6733.woff), url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-Regular.bf6dfa623745f8f9be2c9306dd445f99.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Tiempos;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-Semibold.f9ff40092ce7976601c8b42edcba5b16.woff), url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-Semibold.7e0dadfec14fed4ca5dd26b8ff3b7265.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Tiempos;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-RegularItalic.779e2322119af37d52245221c0873971.woff), url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-RegularItalic.c7b3f3d417c54b9cf7eb7026b9eff8af.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Tiempos;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-SemiboldItalic.2dd1ab0682adf8353a47dfe043bf3aa7.woff), url(https://assets.getpocket.com/web-ui/assets/TiemposTextWeb-SemiboldItalic.694d22d08e25711bb9f3ceb9b78f1e7f.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    src: url(https://assets.getpocket.com/web-ui/assets/Whitney-Book_Web.7ce7eaa9b3b0e084228e832d3a440e95.woff), url(https://assets.getpocket.com/web-ui/assets/Whitney-Book_Web.98aad5d22b5244dd121c379f3cea2230.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Whitney-Semibld_Web.3bc0fd121a947285c427fe52e380c55f.woff), url(https://assets.getpocket.com/web-ui/assets/Whitney-Semibld_Web.de2dee03c81082edf5341031656ea505.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-style: italic;
+    src: url(https://assets.getpocket.com/web-ui/assets/Whitney-BookItal_Web.5980b2b10590f7740928bc375997f593.woff), url(https://assets.getpocket.com/web-ui/assets/Whitney-BookItal_Web.80efdde5b097eda872e1754487ce68fc.woff2)
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Whitney;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://assets.getpocket.com/web-ui/assets/Whitney-SemibldItal_Web.b39a835ee55228424c846aec4093f6b9.woff), url(https://assets.getpocket.com/web-ui/assets/Whitney-SemibldItal_Web.fdd7d75fa8fa59d56cc3c402c5bccb55.woff2)
+}
+
+/* --------------------------------------- DEFAULT ------------------------- */
+*,
+:after,
+:before {
+    box-sizing: border-box
+}
+
+li {
+    list-style: none
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.15
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block
+}
+
+body {
+    background-color: #fff;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left
+}
+
+button:not(:disabled) {
+    cursor: pointer
+}
+
+/* start */
+.prep-l-content {
+    zoom: 1;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 256px;
+    padding: 48px 24px;
+    position: relative
+}
+
+.prep-l-content:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.prep-l-content.prep-t-content-xl {
+    max-width: 1152px
+}
+
+
+.prep-l-content>:last-child {
+    margin-bottom: 0
+}
+
+@media(min-width:768px) {
+    .prep-l-content {
+        padding: 20px 64px;
+
+    }
+}
+
+@media(min-width:1312px) {
+    .prep-l-content {
+        padding: 96px 80px;
+    }
+}
+
+
+/* -------------------------------  GET IN BUTTON ---------------------------- */
+.get-in-home-btn{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, X-LocaleSpecific, sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 6px 24px;
+    color: #fff;
+    text-decoration: none !important;
+    -webkit-transition: background-color .1s, box-shadow .1s, color .1s;
+    transition: background-color .1s, box-shadow .1s, color .1s
+}
+
+.prepbook-homepage .get-in-home-btn {
+    background-color: #9b5de5;
+    border: 0;
+}
+
+.prepbook-homepage .get-in-home-btn:active,
+.prepbook-homepage .get-in-home-btn:focus,
+.prepbook-homepage .get-in-home-btn:hover {
+    background-color: #c1a6e2;
+    color: #fff
+}
+.get-in-home-btn::-moz-focus-inner {
+    border: 0;
+}
+
+
+/* --------------------------------  HEADER CSS ------------------------------------- */
+.prepbook-header.platform {
+    background-color: #f9f9fa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .15)
+}
+
+.platform-header {
+    align-items: center;
+    display: flex;
+    height: 74px;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 16px
+}
+
+.platform-header .prep-logo {
+    margin: 0 auto
+}
+
+.platform-header .header-navigation {
+    display: none;
+    line-height: 1;
+    white-space: nowrap
+}
+
+.platform-header .header-navigation .header-navigation-list {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item {
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link {
+    color: #1a1a1a;
+    font-family: Graphik Web, Helvetica Neue, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.5;
+    margin: 24px 4px;
+    text-decoration: none
+}
+
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link:active,
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link:focus,
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px
+}
+
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link.get-in-black {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-size: .75rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 3px 16px;
+    transition: all .1s ease-in-out
+}
+
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link.get-in-black:active,
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link.get-in-black:focus,
+.platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link.get-in-black:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #1a1a1a;
+    text-decoration: none
+}
+
+@media(min-width:768px) {
+    .platform-header .header-navigation .header-navigation-list .header-navigation-list-item .header-navigation-list-item-link.get-in-black {
+        margin-left: 20px;
+    }
+    .platform-header .header-navigation {
+        display: flex;
+        flex-grow: 2;
+        justify-content: flex-end;
+    }
+    .platform-header .header-navigation .header-navigation-list {
+        display: flex;
+    }
+    .platform-header .header-navigation .header-navigation-list-item-link {
+        padding: 24px 16px;
+    }
+}
+
+
+/*  ------------------------------------------------ MAIN  -------------------------------------------------------------*/
+.main-container {
+    overflow: hidden
+}
+
+
+/* ---------------------------- MAIN -> DIV ------------------------------------ */
+.prepbook-homepage {
+    color: #1a1a1a;
+    font-family: Graphik Web, Helvetica Neue, helvetica, arial, sans-serif
+}
+
+.prepbook-homepage .prepbook-homepage-header .prep-l-split-media-overflow {
+    left: 40%;
+    transform: translateX(-40%);
+    width: 145%;
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-header .prep-l-split-media-overflow {
+        left: unset;
+        transform: unset;
+        width: 100%
+    }
+}
+
+
+@supports(display:grid) {
+    @media(min-width: 768px) {
+        .prep-c-split-media.prep-l-split-media-overflow .prep-c-split-media-asset {
+            max-width:none
+        }
+        .prep-l-split-pop-top.prep-c-split,
+        .prep-l-split-pop.prep-c-split {
+            padding-top: 96px
+        }
+        .prep-l-split-pop .prep-c-split-media,
+        .prep-l-split-pop-top .prep-c-split-media {
+            margin-top: -48px
+        }
+        .prep-c-split-bg .prep-l-split-pop .prep-c-split-media,
+        .prep-c-split-bg .prep-l-split-pop-top .prep-c-split-media {
+            margin-top: -96px
+        }
+        .prep-l-split-pop-bottom.prep-c-split,
+        .prep-l-split-pop.prep-c-split {
+            padding-bottom: 96px
+        }
+        .prep-l-split-pop .prep-c-split-media,
+        .prep-l-split-pop-bottom .prep-c-split-media {
+            margin-bottom: -48px
+        }
+        .prep-c-split-bg .prep-l-split-pop .prep-c-split-media,
+        .prep-c-split-bg .prep-l-split-pop-bottom .prep-c-split-media {
+            margin-bottom: -96px
+        }
+    }
+}
+
+/* ------------ SECTION --------- 1 */
+
+.prep-c-split-media-asset {
+    display: block;
+    max-width: 100%
+}
+
+.prepbook-homepage .prepbook-homepage-header .prep-c-split-media-asset {
+    max-height: 900px;
+    width: auto;
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-header.prep-l-split-pop {
+        padding-top: 0;
+    }
+}
+
+.prepbook-homepage .section-heading {
+    font-family: Doyle, garamond, times, serif;
+    font-size: 48px;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1;
+    line-height: 1.1;
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .section-heading {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.4;
+    }
+}
+
+.prepbook-homepage .sub-section-heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.prepbook-homepage .section-lede {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.5
+}
+
+.prepbook-homepage .prepbook-homepage-get-btn {
+    margin-top: 32px;
+    text-align: center
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-get-btn {
+        text-align: left
+    }
+}
+
+
+/*--------------------------- FEATURES -----------------------  */
+.prepbook-homepage .prepbook-homepage-features {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    padding-bottom: 48px;
+    padding-top: 32px;
+    position: relative
+}
+
+.prepbook-homepage .prepbook-homepage-features h2 {
+    font-family: Doyle, garamond, times, serif;
+    font-size: 38px;
+    font-size: 2.375rem;
+    font-weight: 500;
+    line-height: 1.05;
+    text-align: center
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-features h2 {
+        font-size: 48px;
+        font-size: 3rem;
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 1;
+        line-height: 1.07;
+        text-align: left
+    }
+}
+
+@media(min-width:768px)and (min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-features h2 {
+        font-size: 38px;
+        font-size: 2.375rem;
+        line-height: 1.05
+    }
+}
+
+.prepbook-homepage .prepbook-homepage-features .prep-u-list-styled {
+    margin-bottom: 24px;
+}
+
+.prepbook-homepage .prepbook-homepage-features .prep-u-list-styled li {
+    padding: 10px;
+}
+
+.prepbook-homepage .prepbook-homepage-features .prep-u-list-styled li i {
+
+    color: #6c1cdf;
+    margin-right: 10px;
+}
+
+.prepbook-homepage .prepbook-homepage-features:after,
+.prepbook-homepage .prepbook-homepage-features:before {
+    background-position: 0;
+    background-repeat: repeat-x;
+    background-size: 1516px 18px;
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    visibility: visible;
+    width: 100%
+}
+
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-features {
+        padding-bottom: 64px;
+        padding-top: 64px
+    }
+}
+
+/* prep-c-split-container */
+.prep-c-split-container {
+    zoom: 1;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 304px;
+    padding: 0 24px;
+}
+
+.prep-c-split-container:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+@media(min-width:768px) {
+    .prep-c-split-container {
+        padding: 0 64px;
+
+    }
+}
+
+@media(min-width:1312px) {
+    .prep-c-split-container {
+        padding: 0 80px
+    }
+}
+
+.prep-t-content-xl .prep-c-split-container {
+    max-width: 1152px
+}
+
+@supports(display:grid) {
+    @media(min-width: 768px) {
+        .prep-c-split-container {
+            grid-column-gap:64px;
+            align-items: center;
+            display: grid;
+            grid-template-areas: "body media";
+            grid-template-columns: 1fr 1fr
+        }
+        .prep-l-split-reversed .prep-c-split-container {
+            grid-template-areas: "media body"
+        }
+        .prep-c-split-container .prep-c-split-body,
+        .prep-c-split-container .prep-c-split-media {
+            float: none;
+            min-width: 0;
+            padding: 0;
+            width: 100%
+        }
+        .prep-c-split-body {
+            grid-area: body
+        }
+        .prep-c-split-media {
+            align-self: center;
+            grid-area: media;
+            justify-self: start
+        }
+        .prep-c-split-media .prep-c-split-media-asset {
+            display: block
+        }
+        .prep-l-split-reversed .prep-c-split-media {
+            justify-self: end
+        }
+    }
+    @media(min-width:1024px) {
+        .prep-l-split-body-narrow .prep-c-split-container {
+            grid-template-columns: 1fr 2fr
+        }
+        .prep-l-split-body-narrow.prep-l-split-reversed .prep-c-split-container,
+        .prep-l-split-body-wide .prep-c-split-container {
+            grid-template-columns: 2fr 1fr
+        }
+        .prep-l-split-body-wide.prep-l-split-reversed .prep-c-split-container {
+            grid-template-columns: 1fr 2fr
+        }
+    }
+    @media(min-width:1312px) {
+        .prep-c-split-container {
+            grid-column-gap: 80px
+        }
+    }
+}
+
+
+/* prep-c-split-body */
+.prep-c-split-body {
+    position: relative
+}
+
+.prep-c-split-body>:last-child {
+    margin-bottom: 0
+}
+
+.prep-c-split-body>:last-child>:last-child {
+    margin-bottom: 0
+}
+
+
+@media (max-width:767px) {
+    .prep-c-split-body+.prep-c-split-media,
+    .prep-c-split-media+.prep-c-split-body {
+        margin-top: 48px;
+    }
+    .prep-l-split-center-on-sm-md .prep-c-split-body,
+    .prep-l-split-center-on-sm-md .prep-c-split-media,
+    .prep-l-split-center-on-sm-md .prep-c-split-media-asset {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .prep-l-split-hide-media-on-sm-md .prep-c-split-body {
+        margin-top: 0;
+    }
+    .prep-l-split-hide-media-on-sm-md .prep-c-split-media {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .prep-c-split-body {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+        padding: 0 32px;
+        width: 50%;
+    }
+    .prep-l-split-reversed .prep-c-split-body,
+    [dir=rtl] .prep-c-split-body {
+        float: right;
+    }
+    [dir=rtl] .prep-l-split-reversed .prep-c-split-body {
+        float: left;
+    }
+    .prep-c-split-media {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: right;
+        padding: 0 32px;
+        width: 50%;
+    }
+    .prep-l-split-reversed .prep-c-split-media,
+    [dir=rtl] .prep-c-split-media {
+        float: left
+    }
+    [dir=rtl] .prep-l-split-reversed .prep-c-split-media {
+        float: right
+    }
+}
+
+@media(min-width:1024px) {
+    .prep-l-split-body-narrow .prep-c-split-body {
+        width: 33.33%;
+    }
+    .prep-l-split-body-narrow .prep-c-split-media,
+    .prep-l-split-body-wide .prep-c-split-body {
+        width: 66.66%;
+    }
+    .prep-l-split-body-wide .prep-c-split-media {
+        width: 33.33%;
+    }
+}
+
+@media(min-width:1312px) {
+    .prep-c-split-body,
+    .prep-c-split-media {
+        padding: 0 40px
+    }
+}
+
+/* c-hero-badge */
+@media(min-width:768px) {
+    .prepbook-homepage .prepbook-homepage-header.prep-l-split-pop {
+        padding-top: 0;
+    }
+}
+
+.c-hero-badge {
+    align-items: center;
+    display: flex;
+}
+
+.c-hero-badge .prep-c-logo {
+    margin-bottom: 0;
+    margin-right: 8px;
+}
+
+.c-hero-badge .prep-c-logo.prep-t-logo-xs {
+    height: 20px;
+    width: 20px
+}
+
+.c-hero-badge p {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.c-hero-badge p strong {
+    font-weight: 600
+}
+
+.c-hero-badge+h1 {
+    margin-top: 24px
+}
+
+/* section features */
+@media(min-width:768px) {
+    .prep-l-columns {
+        grid-gap: 48px 64px;
+        display: grid;
+        gap: 48px 64px;
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    ol.prep-l-columns,
+    ul.prep-l-columns {
+        margin-bottom: 0
+    }
+}
+
+@media(min-width:1024px) {
+    .prep-l-columns {
+        grid-gap: 48px 80px;
+        gap: 48px 80px
+    }
+}
+
+/* ADDITINAL STYLES FOR -> aboutapp - userratings  */
+
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    min-height: 200px;
+    background: linear-gradient(-20deg, #bd5beb 0%, #47d2f1 100%);
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.feature-icon i {
+  color: #fee440;
+}
+
+.col-md-6{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+}
+.user-desc{
+padding: 0 20px;
+}
+
+a:link, a:visited, a:hover, a:active{
+text-decoration: none;
+}
+.cover-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 2% 0 4% 0;
+}
+.prep{
+    font-weight: 400;
+}
+.book{
+    font-weight: 400;
+    color: rgba(59, 31, 228, 1);
+}
+
+.mobile-top{
+    margin-bottom: 4%;
+}
+.mobile-console{
+    max-height: 60vh;
+    width: 100%;
+    margin: 4% 0 4% 0 ;
+}
+
+.mobile-download-btn{
+    height: 7vh;
+    margin: 4% 0 0 0 ;
+}
+.mobile-foot{
+    font-size: 0.8rem;
+}
+.foot-text{
+    font-weight: 600;
+}
+.mobile-cover{
+    display: none;
+  }
+
+/* Text animation */
+.animated-text{
+    color: rgb(0, 0, 0);
+    padding: 0 5px;
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .line{
+    text-align: center;
+    line-height: 60px;
+  }
+  .line:first-child{
+    animation: anim 16s infinite;
+  }
+  
+  @keyframes anim {
+    0%{
+      margin-top: 0;
+    }
+    16%{
+      margin-top: -60px;
+    }
+    33%{
+      margin-top: -120px;
+    }
+    50%{
+      margin-top: -180px;
+    }
+    66%{
+      margin-top: -120px;
+    }
+    82%{
+      margin-top: -60px;
+    }
+    100%{
+      margin-top: 0;
+    }
+  }
+  
