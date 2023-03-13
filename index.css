@@ -708,9 +708,8 @@ button:not(:disabled) {
 }
 
 .prepbook-homepage .prepbook-homepage-features .prep-u-list-styled li i {
-
-    color: #6c1cdf;
     margin-right: 10px;
+    font-size: 12px;
 }
 
 .prepbook-homepage .prepbook-homepage-features:after,
