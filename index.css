@@ -993,6 +993,33 @@ padding: 0 20px;
 a:link, a:visited, a:hover, a:active{
 text-decoration: none;
 }
+
+/* > -------------------------  Meet the Team ------------------------------------- */
+
+  div.relative {
+    position: relative;
+    border-radius: 200px;
+    background: #EBDDFF;
+    width: 150px;
+    height: 150px;
+    margin-left: auto; 
+    margin-right: auto;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 16px; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+    .absolute img {
+        border-radius: 50%; 
+        border: 2px solid #333433; 
+    }
+
+/* > ------------------------------------------------ MOBILE VIEW CSS ------------------------------------------------ */
 .cover-text{
     font-size: 1.8rem;
     font-weight: 600;
