@@ -434,7 +434,7 @@ button:not(:disabled) {
 }
 
 .prepbook-homepage .get-in-home-btn {
-    background-color: #9b5de5;
+    background-color: #6D1CDA;
     border: 0;
 }
 
@@ -610,7 +610,7 @@ button:not(:disabled) {
 }
 
 .prepbook-homepage .prepbook-homepage-header .prep-c-split-media-asset {
-    max-height: 900px;
+    max-height: 960px;
     width: auto;
 }
 
@@ -969,18 +969,7 @@ button:not(:disabled) {
 
 /* ADDITINAL STYLES FOR -> aboutapp - userratings  */
 
-.demo-content{
-    padding: 15px;
-    font-size: 18px;
-    min-height: 200px;
-    background: linear-gradient(-20deg, #bd5beb 0%, #47d2f1 100%);
-    color: #ffffff;
-    margin-bottom: 10px;
-}
 
-.feature-icon i {
-  color: #fee440;
-}
 
 .col-md-6{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -994,6 +983,10 @@ a:link, a:visited, a:hover, a:active{
 text-decoration: none;
 }
 
+
+.feature-icon i {
+    color: #fee440;
+  }
 /* > -------------------------  Meet the Team ------------------------------------- */
 
   div.relative {
