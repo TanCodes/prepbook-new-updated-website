@@ -29,9 +29,7 @@ html {
     font-size: 16px;
     line-height: 1.15
 }
-.career-font{
-    font-family: Roboto , Helvetica ;
-}
+
 article,
 aside,
 figcaption,
@@ -234,6 +232,21 @@ button:not(:disabled) {
 
 /*> FONT TO BE USED */
 
+.main-title{
+    font-family: 'Playfair Display' ,Merriweather , Roboto;
+}
+
+/* .section-lede -> Helvitica */
+/* meet team desc */
+.small-title{
+    font-family: Helvetica, sans-serif;
+}
+
+/* careers */
+.career-font{
+    font-family: Roboto , Helvetica ;
+}
+
 /*  ------------------------------------------------ MAIN  -------------------------------------------------------------*/
 .main-container {
     overflow: hidden
@@ -301,7 +314,7 @@ button:not(:disabled) {
 }
 
 .prepbook-homepage .prepbook-homepage-header .prep-c-split-media-asset {
-    max-height: 1000px;
+    max-height: 900px;
     width: auto;
 }
 
@@ -328,12 +341,13 @@ button:not(:disabled) {
     }
 }
 
-.prepbook-homepage .sub-section-heading {
+.prepbook-homepage .sub-section-heading{
     font-size: 32px;
     font-weight: 600;
 }
 
 .prepbook-homepage .section-lede {
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-size: 1.125rem;
     line-height: 1.5
@@ -362,7 +376,7 @@ button:not(:disabled) {
 }
 
 .prepbook-homepage .prepbook-homepage-features h2 {
-    font-family: Doyle, garamond, times, serif;
+    font-family: 'Playfair Display' ,Merriweather , Roboto;
     font-size: 38px;
     font-size: 2.375rem;
     font-weight: 500;
@@ -617,23 +631,22 @@ button:not(:disabled) {
 
 .c-hero-badge .prep-c-logo.prep-t-logo-xs {
     height: 20px;
-    width: 20px
+    width: 20px;
 }
 
 .c-hero-badge p {
-    font-size: 21px;
-    font-size: 1.3125rem;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 2;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.c-hero-badge p strong {
-    font-weight: 600
-}
+/* .c-hero-badge p strong {
+    font-weight: 600;
+} */
 
 .c-hero-badge+h1 {
-    margin-top: 24px
+    margin-top: 24px;
 }
 
 /* section features */
@@ -676,7 +689,7 @@ text-decoration: none;
 
 
 .feature-icon i {
-    color: #fee440;
+    color: #F5DF55;
   }
 /* > -------------------------  Meet the Team ------------------------------------- */
 
