@@ -735,8 +735,7 @@ text-decoration: none;
     margin-bottom: 4%;
 }
 .mobile-console{
-    max-height: 100vh;
-    width: 100%;
+    width: 70%;
     margin: 4% 0 4% 0 ;
 }
 
@@ -794,3 +793,20 @@ text-decoration: none;
     }
   }
   
+
+  @media only screen and (max-width: 823px) {
+
+    .desktop{
+      display: none;
+    }
+
+    .mobile-cover , .mobile{
+      display: block;
+      margin-top: 5%;
+      visibility: visible;
+    }
+  }
+
+  .three-font{
+    font-size: 20px;
+  }
