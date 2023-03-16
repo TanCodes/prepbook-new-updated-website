@@ -688,8 +688,9 @@ text-decoration: none;
 }
 
 
-.feature-icon i {
+.feature-icon .star {
     color: #F5DF55;
+    font-size: 1.5rem
   }
 /* > -------------------------  Meet the Team ------------------------------------- */
 
@@ -734,7 +735,7 @@ text-decoration: none;
     margin-bottom: 4%;
 }
 .mobile-console{
-    max-height: 60vh;
+    max-height: 100vh;
     width: 100%;
     margin: 4% 0 4% 0 ;
 }
