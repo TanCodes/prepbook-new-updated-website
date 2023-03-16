@@ -1,14 +1,11 @@
 
 /* 
-Title - Roboto heavy/bold
-Title - Playfair Display light/bold
-Title - Plus Jakarta Sans bold
-Title - Merriweather Medium/bold
-
-Desc - Helvetica regular
-Dec - Roboto medium
-
+Developed By-
+TANMAY : https://www.linkedin.com/in/tanmaybarvi/
+TANVI : https://www.linkedin.com/in/tanvinaik30
 */
+
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
@@ -332,7 +329,7 @@ button:not(:disabled) {
     line-height: 1;
     line-height: 1.1;
 }
-/* style="font-family: Merriweather; font-weight: 800;" */
+
 @media(min-width:768px) {
     .prepbook-homepage .section-heading {
         font-size: 28px;
@@ -673,8 +670,6 @@ button:not(:disabled) {
 
 /* ADDITINAL STYLES FOR -> aboutapp - userratings  */
 
-
-
 .col-md-6{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 10px;
@@ -811,3 +806,14 @@ text-decoration: none;
   .three-font{
     font-size: 20px;
   }
+
+
+  /* horizontal line */
+  .hr-img{
+    display:block;
+    border:0px;
+    height:16px;
+    background-image:url('https://static.vecteezy.com/system/resources/previews/010/709/887/large_2x/abstract-background-design-using-irregular-wave-patterns-in-purple-and-yellow-colors-free-photo.jpg');
+    margin-bottom: 10%;
+    width: auto;
+    }
