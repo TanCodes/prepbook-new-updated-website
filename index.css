@@ -735,16 +735,17 @@ text-decoration: none;
     margin-bottom: 4%;
 }
 .mobile-console{
-    width: 70%;
-    margin: 4% 0 4% 0 ;
+    width: 80%;
+    margin: 4% 0 0% 0 ;
 }
 
 .mobile-download-btn{
     height: 7vh;
-    margin: 4% 0 0 0 ;
+    margin: 0 0 0 0 ;
 }
 .mobile-foot{
     font-size: 0.8rem;
+    margin-bottom: 20px;
 }
 .foot-text{
     font-weight: 600;
